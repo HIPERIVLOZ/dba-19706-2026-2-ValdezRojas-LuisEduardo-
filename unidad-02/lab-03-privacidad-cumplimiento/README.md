@@ -68,9 +68,9 @@ En la Actividad 3 realizamos consultas para agrupar clientes por ciudad y rango 
 
 También analizamos el uso de datos para promociones. Concluimos que la empresa debe revisar si esa finalidad está permitida antes de utilizar la información.
 
-![Clientes por ciudad](unidad-02/lab-03-privacidad-cumplimiento/evidencias/03-clientes-ciudad.png)
+![Clientes por ciudad](evidencias/03-clientes-ciudad.png)
 
-![Clientes por edad](unidad-02/lab-03-privacidad-cumplimiento/evidencias/03-clientes-edad.png)
+![Clientes por edad](evidencias/03-clientes-edad.png)
 
 ## 4. Minimización
 
@@ -89,8 +89,7 @@ Con esto aprendimos que no siempre es necesario copiar toda la información de u
 
 El código utilizado está en `sql/01-minimizacion.sql`.
 
-![Minimización](unidad-02/lab-03-privacidad-cumplimiento/evidencias/02-minimizacion.png)
-
+![Minimización](evidencias/02-minimizacion.png)
 
 ## 5. Control de acceso
 
@@ -106,9 +105,8 @@ Esto nos permitió aplicar el principio de mínimo privilegio, que consiste en d
 
 El código está en `sql/03-control-acceso.sql`.
 
-![Permisos](unidad-02/lab-03-privacidad-cumplimiento/evidencias/04-permisos-analista.png)
-![Verificación](unidad-02/lab-03-privacidad-cumplimiento/evidencias/04-verificacion-acceso.png)
-
+![Permisos del analista](evidencias/04-permisos-analista.png)
+![Verificación de acceso](evidencias/04-verificacion-acceso.png)
 ## 6. Derechos ARCO
 
 Los derechos ARCO permiten a las personas solicitar acceso, rectificación, cancelación u oposición respecto al uso de sus datos personales.
@@ -119,7 +117,7 @@ Utilizamos una consulta `SELECT` para localizar los datos del cliente con `id = 
 
 La consulta nos permitió revisar la información almacenada, aunque para atender una solicitud real también sería necesario comprobar la identidad del solicitante e informar sobre el uso de sus datos.
 
-![Derecho de acceso](unidad-02/lab-03-privacidad-cumplimiento/evidencias/06-derecho-acceso.png)
+![Derecho de acceso](evidencias/06-derecho-acceso.png)
 
 ### Actividad 7 - Derecho de rectificación
 
@@ -129,7 +127,7 @@ Después ejecutamos un `SELECT` para comprobar que el cambio se hubiera realizad
 
 En una situación real, sería necesario verificar que el cambio fue autorizado, registrar quién lo realizó y conservar evidencia de la modificación.
 
-![Rectificación](unidad-02/lab-03-privacidad-cumplimiento/evidencias/07-rectificacion.png)
+![Rectificación](evidencias/07-rectificacion.png)
 
 
 ### Actividad 8 - Derecho de cancelación
