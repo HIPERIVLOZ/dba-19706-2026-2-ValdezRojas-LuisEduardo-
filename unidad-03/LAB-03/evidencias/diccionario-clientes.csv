@@ -1,0 +1,3 @@
+"codigo_postal","character varying",10,"YES",NULL
+"fecha_alta","date",NULL,"YES",NULL
+"segmento","character varying",20,"YES",NULL
